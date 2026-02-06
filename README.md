@@ -2,6 +2,44 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Backend (Express + SQLite)
+
+This repo now includes a simple local backend API in `server/` using Express and SQLite.
+
+### Run the backend
+
+1. `cd server`
+2. `npm install`
+3. `npm run dev`
+
+The API runs at `http://localhost:4000` and creates a local database file at `server/data/ecom.db`.
+
+### Run the frontend
+
+In another terminal from the project root:
+
+1. `npm install`
+2. `npm start`
+
+### API endpoints
+
+- `GET /api/health`
+- `GET /api/products`
+- `POST /api/products`
+- `GET /api/products/:id`
+- `PUT /api/products/:id`
+- `DELETE /api/products/:id`
+- `GET /api/users`
+- `POST /api/users`
+- `GET /api/users/:id`
+- `PUT /api/users/:id`
+- `DELETE /api/users/:id`
+- `GET /api/orders`
+- `POST /api/orders`
+- `GET /api/orders/:id`
+- `PUT /api/orders/:id`
+- `DELETE /api/orders/:id`
+
 ## Available Scripts
 
 In the project directory, you can run:
